@@ -1,0 +1,43 @@
+body
+{
+    background-color: palegoldenrod;
+}
+#score
+{
+    font-size: 20px;
+    float: left;
+    margin-left: 5px;
+}
+#timer
+{
+    font-size: 20px;
+    float: right;
+    margin-right: 75px;
+}
+#sketch_to_be_drawn
+{
+    color: red;
+}
+#show_sketch
+{
+    float: right;
+}
+canvas
+{
+    border: 5px solid white;
+    border-radius: 20px;
+    animation-name: Amzing_ting;
+    animation-duration: 4s;
+    margin-top: 120px;
+    animation-iteration-count: infinite;
+}
+@keyframes Amzing_ting
+{
+    from{box-shadow: 10px 10px 100px gold;}
+    to{box-shadow: 10px 10px 100px orangered;}
+}
+p
+{
+    padding: 10px;
+    font-size: 25px;
+}
